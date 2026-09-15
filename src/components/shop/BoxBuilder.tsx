@@ -57,7 +57,7 @@ export const BoxBuilder: React.FC<BoxBuilderProps> = ({ onToast }) => {
       category: 'bombones' as const,
       price,
       priceFormatted: `$${price.toLocaleString('es-AR')} ARS`,
-      image: '/assets/images/caja.jpg',
+      image: '/assets/images/caja.webp',
       tag: 'Caja Personalizada',
       cocoaPct: 'Surtido',
       description: `Caja artesanal de ${boxSize} piezas seleccionadas a mano.`,
@@ -91,7 +91,7 @@ export const BoxBuilder: React.FC<BoxBuilderProps> = ({ onToast }) => {
           <div>
             <div className="double-bezel-shell">
               <div className="double-bezel-core" style={{ padding: '1.5rem' }}>
-                <img src="/assets/images/caja.jpg" alt="Estuche de Regalo Personalizado" style={{ width: '100%', borderRadius: 'var(--radius-inner)', marginBottom: '1.5rem' }} />
+                <img src="/assets/images/caja.webp" alt="Estuche de Regalo Personalizado" style={{ width: '100%', borderRadius: 'var(--radius-inner)', marginBottom: '1.5rem' }} />
                 <h3 className="h3" style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>Estuche Rígido con Folia Dorada</h3>
                 <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>
                   Presentación de lujo en madera noble con broche dorado y papel encerado para mantener la humedad ideal.

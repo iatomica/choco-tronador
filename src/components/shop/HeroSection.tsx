@@ -7,7 +7,7 @@ export const HeroSection: React.FC = () => {
       {/* Full-bleed Background Image with Horizontal Gradient Overlay */}
       <div className="hero-bg-image-container">
         <img 
-          src="/assets/images/hero.jpg" 
+          src="/assets/images/hero.webp" 
           alt="Chocolates Tronador Selección Bariloche" 
           className="hero-bg-img"
         />
